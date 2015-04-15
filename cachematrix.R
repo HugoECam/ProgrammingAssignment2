@@ -1,3 +1,5 @@
+## Programming Assignment 2
+
 ## The following functions are designed to compute the inverse of a matrix. 
 ## But before the calculattion it searches in a cache object to see 
 ## if it was previously calculated in order to avoid the calculation 
@@ -6,6 +8,8 @@
 ## it is used to calculate the inverse matrix and to maintain the result 
 ##    x is a numeric matrix
 ##    returns a "matrix" object (a list)
+
+##
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
